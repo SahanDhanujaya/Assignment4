@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Case4</title>
     <style>
-       
+        /* variable declaration and initialization */
+        :root{
+            --width: 180px;/* we can add any name as variable name*/ 
+            --height:80px;
+        }
+
+       body{
+        padding: 0;
+        margin: 0;
+    /* overflow: hidden; */
+       }
         div{
+            /*Assign values from variables 
+            height: var(--height);
+            width: var(--width); */
             position: absolute;
             align-self: center;
             border: 2px solid tomato;
